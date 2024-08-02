@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAND RECORDS"
+        android:layout_gravity="center_horizontal"
+        android:textSize="41sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:overScrollMode="ifContentScrolls"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/total_area_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Area: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/residential_area_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Residential Area: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/commercial_area_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Commercial Area: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/industrial_area_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Industrial Area: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/agricultural_area_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agricultural Area: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/transportation_area_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transportation Area: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Add New Data"
+        android:textStyle="bold"
+        android:minHeight="48dp"
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1066975949147",
+    "project_id": "landmanagement-4a35a",
+    "storage_bucket": "landmanagement-4a35a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066975949147:android:f51ad1b6cc850412cb2a7e",
+        "android_client_info": {
+          "package_name": "com.example.landmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPMlDXIPgn2y3OTGRZN87PoGw4BlTKum8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
